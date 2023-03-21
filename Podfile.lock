@@ -1,0 +1,23 @@
+PODS:
+  - CorePlot (1.6)
+  - NMRangeSlider (1.1.1)
+
+DEPENDENCIES:
+  - CorePlot (from `https://github.com/core-plot/core-plot.git`, branch `release-2.0`)
+  - NMRangeSlider (~> 1.1.1)
+
+EXTERNAL SOURCES:
+  CorePlot:
+    :branch: release-2.0
+    :git: https://github.com/core-plot/core-plot.git
+
+CHECKOUT OPTIONS:
+  CorePlot:
+    :commit: f74caa599ec501fab666062b3598a34a0c05b3d5
+    :git: https://github.com/core-plot/core-plot.git
+
+SPEC CHECKSUMS:
+  CorePlot: cdef45c4ebb7a53f76dc298bf997e13afdaf956d
+  NMRangeSlider: 307aa02651d6cc547ce8faffeb69e90080ec8476
+
+COCOAPODS: 0.37.2

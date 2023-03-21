@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Archive.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Splash Calc Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Splash Calc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SplashCalcDataKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F1F7AC711B3EAB1800FA04C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1F7AC861B3EAB1800FA04C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1F90EF51B91D28B005DC13F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1F90EFF1B91D28B005DC13F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1F9102E1B930594005DC13F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1F910611B930C1B005DC13F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1F9106B1B930C1B005DC13F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

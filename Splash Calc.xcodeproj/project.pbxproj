@@ -7,12 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B210CD7954311397957E77E /* libPods-Splash Calc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F55CD53283B0391610DB22C4 /* libPods-Splash Calc.a */; };
+		F135F0281B41BEA7006BC889 /* _DDDecimalFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFF71B41BEA7006BC889 /* _DDDecimalFunctions.m */; };
+		F135F0291B41BEA7006BC889 /* _DDFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFF91B41BEA7006BC889 /* _DDFunctionEvaluator.m */; };
+		F135F02A1B41BEA7006BC889 /* _DDFunctionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFFB1B41BEA7006BC889 /* _DDFunctionExpression.m */; };
+		F135F02B1B41BEA7006BC889 /* _DDFunctionTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFFD1B41BEA7006BC889 /* _DDFunctionTerm.m */; };
+		F135F02C1B41BEA7006BC889 /* _DDGroupTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFFF1B41BEA7006BC889 /* _DDGroupTerm.m */; };
+		F135F02D1B41BEA7006BC889 /* _DDNumberExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0011B41BEA7006BC889 /* _DDNumberExpression.m */; };
+		F135F02E1B41BEA7006BC889 /* _DDNumberTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0031B41BEA7006BC889 /* _DDNumberTerm.m */; };
+		F135F02F1B41BEA7006BC889 /* _DDOperatorTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0051B41BEA7006BC889 /* _DDOperatorTerm.m */; };
+		F135F0301B41BEA7006BC889 /* _DDParserTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0071B41BEA7006BC889 /* _DDParserTerm.m */; };
+		F135F0311B41BEA7006BC889 /* _DDPrecisionFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0091B41BEA7006BC889 /* _DDPrecisionFunctionEvaluator.m */; };
+		F135F0321B41BEA7006BC889 /* _DDRewriteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F00B1B41BEA7006BC889 /* _DDRewriteRule.m */; };
+		F135F0331B41BEA7006BC889 /* _DDVariableExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F00D1B41BEA7006BC889 /* _DDVariableExpression.m */; };
+		F135F0341B41BEA7006BC889 /* _DDVariableTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F00F1B41BEA7006BC889 /* _DDVariableTerm.m */; };
+		F135F0351B41BEA7006BC889 /* DDExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0111B41BEA7006BC889 /* DDExpression.m */; };
+		F135F0361B41BEA7006BC889 /* DDExpressionRewriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0131B41BEA7006BC889 /* DDExpressionRewriter.m */; };
+		F135F0371B41BEA7006BC889 /* DDMathEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0161B41BEA7006BC889 /* DDMathEvaluator.m */; };
+		F135F0381B41BEA7006BC889 /* DDMathOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0181B41BEA7006BC889 /* DDMathOperator.m */; };
+		F135F0391B41BEA7006BC889 /* DDMathStringToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F01D1B41BEA7006BC889 /* DDMathStringToken.m */; };
+		F135F03A1B41BEA7006BC889 /* DDMathStringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F01F1B41BEA7006BC889 /* DDMathStringTokenizer.m */; };
+		F135F03B1B41BEA7006BC889 /* DDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0211B41BEA7006BC889 /* DDParser.m */; };
+		F135F03C1B41BEA7006BC889 /* DDParserTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0231B41BEA7006BC889 /* DDParserTypes.m */; };
+		F135F03D1B41BEA7006BC889 /* DDTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0251B41BEA7006BC889 /* DDTypes.m */; };
+		F135F03E1B41BEA7006BC889 /* NSString+DDMathParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0271B41BEA7006BC889 /* NSString+DDMathParsing.m */; };
+		F18A8D2E1B40A9A300D1FBD9 /* Unibody8Pro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F18A8D2D1B40A70500D1FBD9 /* Unibody8Pro-Regular.otf */; };
+		F18A8D301B40ADAD00D1FBD9 /* steelfish rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F18A8D2F1B40ADAD00D1FBD9 /* steelfish rg.ttf */; };
+		F1945AFD1B5D946D00E5B3DD /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1945AFB1B5D93C100E5B3DD /* CalculatorViewController.swift */; };
+		F19B17561B49ACDF0035AEB3 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B17551B49ACDF0035AEB3 /* TextViewController.swift */; };
+		F19B175A1B49DDF40035AEB3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B17591B49DDF40035AEB3 /* SettingsViewController.swift */; };
+		F19B17601B4A52060035AEB3 /* RestoreButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19B175F1B4A52060035AEB3 /* RestoreButton.xib */; };
+		F19B17641B4A5FC60035AEB3 /* RestoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B17631B4A5FC60035AEB3 /* RestoreButton.swift */; };
+		F1B91C3F1B472ADF0067ADEA /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B91C3E1B472ADF0067ADEA /* GraphViewController.m */; };
+		F1F622FA1B9398A8003995FF /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F622F91B9398A8003995FF /* BorderedButton.swift */; };
 		F1F7AC781B3EAB1800FA04C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7AC771B3EAB1800FA04C3 /* AppDelegate.swift */; };
-		F1F7AC7A1B3EAB1800FA04C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7AC791B3EAB1800FA04C3 /* ViewController.swift */; };
 		F1F7AC7D1B3EAB1800FA04C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F7AC7B1B3EAB1800FA04C3 /* Main.storyboard */; };
-		F1F7AC7F1B3EAB1800FA04C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F7AC7E1B3EAB1800FA04C3 /* Images.xcassets */; };
-		F1F7AC821B3EAB1800FA04C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F7AC801B3EAB1800FA04C3 /* LaunchScreen.xib */; };
 		F1F7AC8E1B3EAB1800FA04C3 /* Splash_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7AC8D1B3EAB1800FA04C3 /* Splash_CalcTests.swift */; };
+		F1F7AC9C1B3EAB9900FA04C3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7AC981B3EAB9900FA04C3 /* CalculatorBrain.swift */; };
+		F1F7AC9D1B3EAB9900FA04C3 /* CalculatorGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7AC991B3EAB9900FA04C3 /* CalculatorGraphViewController.swift */; };
+		F1F7AC9E1B3EAB9900FA04C3 /* CalculatorGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7AC9A1B3EAB9900FA04C3 /* CalculatorGraph.swift */; };
+		F1F7ACA11B3EABA600FA04C3 /* AxesDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7AC9F1B3EABA600FA04C3 /* AxesDrawer.swift */; };
+		F1F7ACA21B3EABA600FA04C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7ACA01B3EABA600FA04C3 /* Extensions.swift */; };
+		F1F7ACA61B3EAC2E00FA04C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F7ACA51B3EAC2E00FA04C3 /* Images.xcassets */; };
+		F1F7ACAA1B3EAFAE00FA04C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F7ACA91B3EAFAE00FA04C3 /* LaunchScreen.xib */; };
+		F1F910311B930594005DC13F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F910301B930594005DC13F /* NotificationCenter.framework */; };
+		F1F910381B930594005DC13F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F910371B930594005DC13F /* MainInterface.storyboard */; };
+		F1F9103B1B930594005DC13F /* Splash Calc Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1F9102F1B930594005DC13F /* Splash Calc Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F1F910401B930637005DC13F /* _DDDecimalFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFF71B41BEA7006BC889 /* _DDDecimalFunctions.m */; };
+		F1F910411B930656005DC13F /* _DDFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFF91B41BEA7006BC889 /* _DDFunctionEvaluator.m */; };
+		F1F910421B930656005DC13F /* _DDFunctionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFFB1B41BEA7006BC889 /* _DDFunctionExpression.m */; };
+		F1F910431B930656005DC13F /* _DDFunctionTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFFD1B41BEA7006BC889 /* _DDFunctionTerm.m */; };
+		F1F910441B930656005DC13F /* _DDGroupTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135EFFF1B41BEA7006BC889 /* _DDGroupTerm.m */; };
+		F1F910451B930656005DC13F /* _DDNumberExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0011B41BEA7006BC889 /* _DDNumberExpression.m */; };
+		F1F910461B930656005DC13F /* _DDNumberTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0031B41BEA7006BC889 /* _DDNumberTerm.m */; };
+		F1F910471B930656005DC13F /* _DDOperatorTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0051B41BEA7006BC889 /* _DDOperatorTerm.m */; };
+		F1F910481B930656005DC13F /* _DDParserTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0071B41BEA7006BC889 /* _DDParserTerm.m */; };
+		F1F910491B930656005DC13F /* _DDPrecisionFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0091B41BEA7006BC889 /* _DDPrecisionFunctionEvaluator.m */; };
+		F1F9104A1B930656005DC13F /* _DDRewriteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F00B1B41BEA7006BC889 /* _DDRewriteRule.m */; };
+		F1F9104B1B930656005DC13F /* _DDVariableExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F00D1B41BEA7006BC889 /* _DDVariableExpression.m */; };
+		F1F9104C1B930656005DC13F /* _DDVariableTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F00F1B41BEA7006BC889 /* _DDVariableTerm.m */; };
+		F1F9104D1B930656005DC13F /* DDExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0111B41BEA7006BC889 /* DDExpression.m */; };
+		F1F9104E1B930656005DC13F /* DDExpressionRewriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0131B41BEA7006BC889 /* DDExpressionRewriter.m */; };
+		F1F9104F1B930656005DC13F /* DDMathEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0161B41BEA7006BC889 /* DDMathEvaluator.m */; };
+		F1F910501B930656005DC13F /* DDMathOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0181B41BEA7006BC889 /* DDMathOperator.m */; };
+		F1F910511B930656005DC13F /* DDMathStringToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F01D1B41BEA7006BC889 /* DDMathStringToken.m */; };
+		F1F910521B930656005DC13F /* DDMathStringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F01F1B41BEA7006BC889 /* DDMathStringTokenizer.m */; };
+		F1F910531B930656005DC13F /* DDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0211B41BEA7006BC889 /* DDParser.m */; };
+		F1F910541B930656005DC13F /* DDParserTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0231B41BEA7006BC889 /* DDParserTypes.m */; };
+		F1F910551B930656005DC13F /* DDTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0251B41BEA7006BC889 /* DDTypes.m */; };
+		F1F910561B930656005DC13F /* NSString+DDMathParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = F135F0271B41BEA7006BC889 /* NSString+DDMathParsing.m */; };
+		F1F910571B930661005DC13F /* Unibody8Pro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F18A8D2D1B40A70500D1FBD9 /* Unibody8Pro-Regular.otf */; };
+		F1F910581B930664005DC13F /* steelfish rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F18A8D2F1B40ADAD00D1FBD9 /* steelfish rg.ttf */; };
+		F1F910591B930671005DC13F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7ACA01B3EABA600FA04C3 /* Extensions.swift */; };
+		F1F9105A1B93073A005DC13F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F7ACA51B3EAC2E00FA04C3 /* Images.xcassets */; };
+		F1F910851B931593005DC13F /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7AC981B3EAB9900FA04C3 /* CalculatorBrain.swift */; };
+		F1F9108B1B931670005DC13F /* CalculatorViewController_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F9108A1B931670005DC13F /* CalculatorViewController_Widget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +92,129 @@
 			remoteGlobalIDString = F1F7AC711B3EAB1800FA04C3;
 			remoteInfo = "Splash Calc";
 		};
+		F1F910391B930594005DC13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F7AC6A1B3EAB1700FA04C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F9102E1B930594005DC13F;
+			remoteInfo = "Splash Calc Widget";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F1F90F141B91D28B005DC13F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F9103F1B930594005DC13F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F1F9103B1B930594005DC13F /* Splash Calc Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		369EE410B71BA599D92A446B /* Pods-Splash Calc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash Calc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Splash Calc/Pods-Splash Calc.release.xcconfig"; sourceTree = "<group>"; };
+		8F3174988F98E9D85922D2BC /* Pods-Splash Calc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash Calc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Splash Calc/Pods-Splash Calc.debug.xcconfig"; sourceTree = "<group>"; };
+		F135EFF61B41BEA7006BC889 /* _DDDecimalFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDDecimalFunctions.h; sourceTree = "<group>"; };
+		F135EFF71B41BEA7006BC889 /* _DDDecimalFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDDecimalFunctions.m; sourceTree = "<group>"; };
+		F135EFF81B41BEA7006BC889 /* _DDFunctionEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDFunctionEvaluator.h; sourceTree = "<group>"; };
+		F135EFF91B41BEA7006BC889 /* _DDFunctionEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDFunctionEvaluator.m; sourceTree = "<group>"; };
+		F135EFFA1B41BEA7006BC889 /* _DDFunctionExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDFunctionExpression.h; sourceTree = "<group>"; };
+		F135EFFB1B41BEA7006BC889 /* _DDFunctionExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDFunctionExpression.m; sourceTree = "<group>"; };
+		F135EFFC1B41BEA7006BC889 /* _DDFunctionTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDFunctionTerm.h; sourceTree = "<group>"; };
+		F135EFFD1B41BEA7006BC889 /* _DDFunctionTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDFunctionTerm.m; sourceTree = "<group>"; };
+		F135EFFE1B41BEA7006BC889 /* _DDGroupTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDGroupTerm.h; sourceTree = "<group>"; };
+		F135EFFF1B41BEA7006BC889 /* _DDGroupTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDGroupTerm.m; sourceTree = "<group>"; };
+		F135F0001B41BEA7006BC889 /* _DDNumberExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDNumberExpression.h; sourceTree = "<group>"; };
+		F135F0011B41BEA7006BC889 /* _DDNumberExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDNumberExpression.m; sourceTree = "<group>"; };
+		F135F0021B41BEA7006BC889 /* _DDNumberTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDNumberTerm.h; sourceTree = "<group>"; };
+		F135F0031B41BEA7006BC889 /* _DDNumberTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDNumberTerm.m; sourceTree = "<group>"; };
+		F135F0041B41BEA7006BC889 /* _DDOperatorTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDOperatorTerm.h; sourceTree = "<group>"; };
+		F135F0051B41BEA7006BC889 /* _DDOperatorTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDOperatorTerm.m; sourceTree = "<group>"; };
+		F135F0061B41BEA7006BC889 /* _DDParserTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDParserTerm.h; sourceTree = "<group>"; };
+		F135F0071B41BEA7006BC889 /* _DDParserTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDParserTerm.m; sourceTree = "<group>"; };
+		F135F0081B41BEA7006BC889 /* _DDPrecisionFunctionEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDPrecisionFunctionEvaluator.h; sourceTree = "<group>"; };
+		F135F0091B41BEA7006BC889 /* _DDPrecisionFunctionEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDPrecisionFunctionEvaluator.m; sourceTree = "<group>"; };
+		F135F00A1B41BEA7006BC889 /* _DDRewriteRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDRewriteRule.h; sourceTree = "<group>"; };
+		F135F00B1B41BEA7006BC889 /* _DDRewriteRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDRewriteRule.m; sourceTree = "<group>"; };
+		F135F00C1B41BEA7006BC889 /* _DDVariableExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDVariableExpression.h; sourceTree = "<group>"; };
+		F135F00D1B41BEA7006BC889 /* _DDVariableExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDVariableExpression.m; sourceTree = "<group>"; };
+		F135F00E1B41BEA7006BC889 /* _DDVariableTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDVariableTerm.h; sourceTree = "<group>"; };
+		F135F00F1B41BEA7006BC889 /* _DDVariableTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDVariableTerm.m; sourceTree = "<group>"; };
+		F135F0101B41BEA7006BC889 /* DDExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDExpression.h; sourceTree = "<group>"; };
+		F135F0111B41BEA7006BC889 /* DDExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDExpression.m; sourceTree = "<group>"; };
+		F135F0121B41BEA7006BC889 /* DDExpressionRewriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDExpressionRewriter.h; sourceTree = "<group>"; };
+		F135F0131B41BEA7006BC889 /* DDExpressionRewriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDExpressionRewriter.m; sourceTree = "<group>"; };
+		F135F0141B41BEA7006BC889 /* DDMathEvaluator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDMathEvaluator+Private.h"; sourceTree = "<group>"; };
+		F135F0151B41BEA7006BC889 /* DDMathEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathEvaluator.h; sourceTree = "<group>"; };
+		F135F0161B41BEA7006BC889 /* DDMathEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMathEvaluator.m; sourceTree = "<group>"; };
+		F135F0171B41BEA7006BC889 /* DDMathOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathOperator.h; sourceTree = "<group>"; };
+		F135F0181B41BEA7006BC889 /* DDMathOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMathOperator.m; sourceTree = "<group>"; };
+		F135F0191B41BEA7006BC889 /* DDMathOperator_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathOperator_Internal.h; sourceTree = "<group>"; };
+		F135F01A1B41BEA7006BC889 /* DDMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathParser.h; sourceTree = "<group>"; };
+		F135F01B1B41BEA7006BC889 /* DDMathParserMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathParserMacros.h; sourceTree = "<group>"; };
+		F135F01C1B41BEA7006BC889 /* DDMathStringToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathStringToken.h; sourceTree = "<group>"; };
+		F135F01D1B41BEA7006BC889 /* DDMathStringToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMathStringToken.m; sourceTree = "<group>"; };
+		F135F01E1B41BEA7006BC889 /* DDMathStringTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathStringTokenizer.h; sourceTree = "<group>"; };
+		F135F01F1B41BEA7006BC889 /* DDMathStringTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMathStringTokenizer.m; sourceTree = "<group>"; };
+		F135F0201B41BEA7006BC889 /* DDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDParser.h; sourceTree = "<group>"; };
+		F135F0211B41BEA7006BC889 /* DDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDParser.m; sourceTree = "<group>"; };
+		F135F0221B41BEA7006BC889 /* DDParserTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDParserTypes.h; sourceTree = "<group>"; };
+		F135F0231B41BEA7006BC889 /* DDParserTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDParserTypes.m; sourceTree = "<group>"; };
+		F135F0241B41BEA7006BC889 /* DDTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTypes.h; sourceTree = "<group>"; };
+		F135F0251B41BEA7006BC889 /* DDTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTypes.m; sourceTree = "<group>"; };
+		F135F0261B41BEA7006BC889 /* NSString+DDMathParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDMathParsing.h"; sourceTree = "<group>"; };
+		F135F0271B41BEA7006BC889 /* NSString+DDMathParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDMathParsing.m"; sourceTree = "<group>"; };
+		F18A8D2D1B40A70500D1FBD9 /* Unibody8Pro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unibody8Pro-Regular.otf"; sourceTree = "<group>"; };
+		F18A8D2F1B40ADAD00D1FBD9 /* steelfish rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "steelfish rg.ttf"; sourceTree = "<group>"; };
+		F18A8D371B41818300D1FBD9 /* Splash_Calc-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Splash_Calc-Bridging-Header.h"; path = "../Splash_Calc-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1945AFB1B5D93C100E5B3DD /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		F19B17551B49ACDF0035AEB3 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		F19B17591B49DDF40035AEB3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F19B175F1B4A52060035AEB3 /* RestoreButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestoreButton.xib; sourceTree = "<group>"; };
+		F19B17631B4A5FC60035AEB3 /* RestoreButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreButton.swift; sourceTree = "<group>"; };
+		F19D80211B4B15C700D343B6 /* backup-with-userdefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "backup-with-userdefaults.m"; sourceTree = "<group>"; };
+		F19D80231B4B189100D343B6 /* backup-old-working.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "backup-old-working.m"; sourceTree = "<group>"; };
+		F1B91C3D1B472ADF0067ADEA /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		F1B91C3E1B472ADF0067ADEA /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		F1F622F91B9398A8003995FF /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 		F1F7AC721B3EAB1800FA04C3 /* Splash Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Splash Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F7AC761B3EAB1800FA04C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1F7AC771B3EAB1800FA04C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1F7AC791B3EAB1800FA04C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1F7AC7C1B3EAB1800FA04C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F1F7AC7E1B3EAB1800FA04C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F1F7AC811B3EAB1800FA04C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F1F7AC871B3EAB1800FA04C3 /* Splash CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Splash CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F7AC8C1B3EAB1800FA04C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1F7AC8D1B3EAB1800FA04C3 /* Splash_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash_CalcTests.swift; sourceTree = "<group>"; };
+		F1F7AC981B3EAB9900FA04C3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		F1F7AC991B3EAB9900FA04C3 /* CalculatorGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorGraphViewController.swift; sourceTree = "<group>"; };
+		F1F7AC9A1B3EAB9900FA04C3 /* CalculatorGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorGraph.swift; sourceTree = "<group>"; };
+		F1F7AC9F1B3EABA600FA04C3 /* AxesDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxesDrawer.swift; sourceTree = "<group>"; };
+		F1F7ACA01B3EABA600FA04C3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F1F7ACA51B3EAC2E00FA04C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1F7ACA91B3EAFAE00FA04C3 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		F1F9102F1B930594005DC13F /* Splash Calc Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Splash Calc Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F910301B930594005DC13F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F1F910341B930594005DC13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F910351B930594005DC13F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F1F910371B930594005DC13F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		F1F910811B930D31005DC13F /* Splash_Calc_Widget-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Splash_Calc_Widget-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		F1F910871B9315FD005DC13F /* GraphViewController_Widget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphViewController_Widget.m; path = "../Splash Calc/GraphViewController_Widget.m"; sourceTree = "<group>"; };
+		F1F910891B93160B005DC13F /* GraphViewController_Widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphViewController_Widget.h; path = "../Splash Calc/GraphViewController_Widget.h"; sourceTree = "<group>"; };
+		F1F9108A1B931670005DC13F /* CalculatorViewController_Widget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorViewController_Widget.swift; path = "../Splash Calc/CalculatorViewController_Widget.swift"; sourceTree = "<group>"; };
+		F55CD53283B0391610DB22C4 /* libPods-Splash Calc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Splash Calc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B210CD7954311397957E77E /* libPods-Splash Calc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,15 +233,101 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1F9102C1B930594005DC13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F910311B930594005DC13F /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F93AAC74B3ADBD43014BD5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F3174988F98E9D85922D2BC /* Pods-Splash Calc.debug.xcconfig */,
+				369EE410B71BA599D92A446B /* Pods-Splash Calc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DB3A268E975233E4D10D0FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F55CD53283B0391610DB22C4 /* libPods-Splash Calc.a */,
+				F1F910301B930594005DC13F /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F135EFF51B41BEA7006BC889 /* DDMathParser */ = {
+			isa = PBXGroup;
+			children = (
+				F135EFF61B41BEA7006BC889 /* _DDDecimalFunctions.h */,
+				F135EFF71B41BEA7006BC889 /* _DDDecimalFunctions.m */,
+				F135EFF81B41BEA7006BC889 /* _DDFunctionEvaluator.h */,
+				F135EFF91B41BEA7006BC889 /* _DDFunctionEvaluator.m */,
+				F135EFFA1B41BEA7006BC889 /* _DDFunctionExpression.h */,
+				F135EFFB1B41BEA7006BC889 /* _DDFunctionExpression.m */,
+				F135EFFC1B41BEA7006BC889 /* _DDFunctionTerm.h */,
+				F135EFFD1B41BEA7006BC889 /* _DDFunctionTerm.m */,
+				F135EFFE1B41BEA7006BC889 /* _DDGroupTerm.h */,
+				F135EFFF1B41BEA7006BC889 /* _DDGroupTerm.m */,
+				F135F0001B41BEA7006BC889 /* _DDNumberExpression.h */,
+				F135F0011B41BEA7006BC889 /* _DDNumberExpression.m */,
+				F135F0021B41BEA7006BC889 /* _DDNumberTerm.h */,
+				F135F0031B41BEA7006BC889 /* _DDNumberTerm.m */,
+				F135F0041B41BEA7006BC889 /* _DDOperatorTerm.h */,
+				F135F0051B41BEA7006BC889 /* _DDOperatorTerm.m */,
+				F135F0061B41BEA7006BC889 /* _DDParserTerm.h */,
+				F135F0071B41BEA7006BC889 /* _DDParserTerm.m */,
+				F135F0081B41BEA7006BC889 /* _DDPrecisionFunctionEvaluator.h */,
+				F135F0091B41BEA7006BC889 /* _DDPrecisionFunctionEvaluator.m */,
+				F135F00A1B41BEA7006BC889 /* _DDRewriteRule.h */,
+				F135F00B1B41BEA7006BC889 /* _DDRewriteRule.m */,
+				F135F00C1B41BEA7006BC889 /* _DDVariableExpression.h */,
+				F135F00D1B41BEA7006BC889 /* _DDVariableExpression.m */,
+				F135F00E1B41BEA7006BC889 /* _DDVariableTerm.h */,
+				F135F00F1B41BEA7006BC889 /* _DDVariableTerm.m */,
+				F135F0101B41BEA7006BC889 /* DDExpression.h */,
+				F135F0111B41BEA7006BC889 /* DDExpression.m */,
+				F135F0121B41BEA7006BC889 /* DDExpressionRewriter.h */,
+				F135F0131B41BEA7006BC889 /* DDExpressionRewriter.m */,
+				F135F0141B41BEA7006BC889 /* DDMathEvaluator+Private.h */,
+				F135F0151B41BEA7006BC889 /* DDMathEvaluator.h */,
+				F135F0161B41BEA7006BC889 /* DDMathEvaluator.m */,
+				F135F0171B41BEA7006BC889 /* DDMathOperator.h */,
+				F135F0181B41BEA7006BC889 /* DDMathOperator.m */,
+				F135F0191B41BEA7006BC889 /* DDMathOperator_Internal.h */,
+				F135F01A1B41BEA7006BC889 /* DDMathParser.h */,
+				F135F01B1B41BEA7006BC889 /* DDMathParserMacros.h */,
+				F135F01C1B41BEA7006BC889 /* DDMathStringToken.h */,
+				F135F01D1B41BEA7006BC889 /* DDMathStringToken.m */,
+				F135F01E1B41BEA7006BC889 /* DDMathStringTokenizer.h */,
+				F135F01F1B41BEA7006BC889 /* DDMathStringTokenizer.m */,
+				F135F0201B41BEA7006BC889 /* DDParser.h */,
+				F135F0211B41BEA7006BC889 /* DDParser.m */,
+				F135F0221B41BEA7006BC889 /* DDParserTypes.h */,
+				F135F0231B41BEA7006BC889 /* DDParserTypes.m */,
+				F135F0241B41BEA7006BC889 /* DDTypes.h */,
+				F135F0251B41BEA7006BC889 /* DDTypes.m */,
+				F135F0261B41BEA7006BC889 /* NSString+DDMathParsing.h */,
+				F135F0271B41BEA7006BC889 /* NSString+DDMathParsing.m */,
+			);
+			path = DDMathParser;
+			sourceTree = "<group>";
+		};
 		F1F7AC691B3EAB1700FA04C3 = {
 			isa = PBXGroup;
 			children = (
 				F1F7AC741B3EAB1800FA04C3 /* Splash Calc */,
 				F1F7AC8A1B3EAB1800FA04C3 /* Splash CalcTests */,
+				F1F910321B930594005DC13F /* Splash Calc Widget */,
 				F1F7AC731B3EAB1800FA04C3 /* Products */,
+				0F93AAC74B3ADBD43014BD5F /* Pods */,
+				8DB3A268E975233E4D10D0FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +336,7 @@
 			children = (
 				F1F7AC721B3EAB1800FA04C3 /* Splash Calc.app */,
 				F1F7AC871B3EAB1800FA04C3 /* Splash CalcTests.xctest */,
+				F1F9102F1B930594005DC13F /* Splash Calc Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,11 +344,17 @@
 		F1F7AC741B3EAB1800FA04C3 /* Splash Calc */ = {
 			isa = PBXGroup;
 			children = (
-				F1F7AC771B3EAB1800FA04C3 /* AppDelegate.swift */,
-				F1F7AC791B3EAB1800FA04C3 /* ViewController.swift */,
 				F1F7AC7B1B3EAB1800FA04C3 /* Main.storyboard */,
-				F1F7AC7E1B3EAB1800FA04C3 /* Images.xcassets */,
-				F1F7AC801B3EAB1800FA04C3 /* LaunchScreen.xib */,
+				F1945AFB1B5D93C100E5B3DD /* CalculatorViewController.swift */,
+				F19B17551B49ACDF0035AEB3 /* TextViewController.swift */,
+				F19B17591B49DDF40035AEB3 /* SettingsViewController.swift */,
+				F19B175F1B4A52060035AEB3 /* RestoreButton.xib */,
+				F19B17631B4A5FC60035AEB3 /* RestoreButton.swift */,
+				F1F7AC981B3EAB9900FA04C3 /* CalculatorBrain.swift */,
+				F1B91C3D1B472ADF0067ADEA /* GraphViewController.h */,
+				F1B91C3E1B472ADF0067ADEA /* GraphViewController.m */,
+				F19D80231B4B189100D343B6 /* backup-old-working.m */,
+				F19D80211B4B15C700D343B6 /* backup-with-userdefaults.m */,
 				F1F7AC751B3EAB1800FA04C3 /* Supporting Files */,
 			);
 			path = "Splash Calc";
@@ -90,6 +363,17 @@
 		F1F7AC751B3EAB1800FA04C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F135EFF51B41BEA7006BC889 /* DDMathParser */,
+				F18A8D371B41818300D1FBD9 /* Splash_Calc-Bridging-Header.h */,
+				F18A8D2D1B40A70500D1FBD9 /* Unibody8Pro-Regular.otf */,
+				F18A8D2F1B40ADAD00D1FBD9 /* steelfish rg.ttf */,
+				F1F7AC9F1B3EABA600FA04C3 /* AxesDrawer.swift */,
+				F1F7ACA51B3EAC2E00FA04C3 /* Images.xcassets */,
+				F1F7ACA91B3EAFAE00FA04C3 /* LaunchScreen.xib */,
+				F1F7AC9A1B3EAB9900FA04C3 /* CalculatorGraph.swift */,
+				F1F7AC991B3EAB9900FA04C3 /* CalculatorGraphViewController.swift */,
+				F1F7ACA01B3EABA600FA04C3 /* Extensions.swift */,
+				F1F7AC771B3EAB1800FA04C3 /* AppDelegate.swift */,
 				F1F7AC761B3EAB1800FA04C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +396,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F1F910321B930594005DC13F /* Splash Calc Widget */ = {
+			isa = PBXGroup;
+			children = (
+				F1F622F91B9398A8003995FF /* BorderedButton.swift */,
+				F1F9108A1B931670005DC13F /* CalculatorViewController_Widget.swift */,
+				F1F910891B93160B005DC13F /* GraphViewController_Widget.h */,
+				F1F910871B9315FD005DC13F /* GraphViewController_Widget.m */,
+				F1F910811B930D31005DC13F /* Splash_Calc_Widget-Bridging-Header.h */,
+				F1F910351B930594005DC13F /* TodayViewController.swift */,
+				F1F910371B930594005DC13F /* MainInterface.storyboard */,
+				F1F910331B930594005DC13F /* Supporting Files */,
+			);
+			path = "Splash Calc Widget";
+			sourceTree = "<group>";
+		};
+		F1F910331B930594005DC13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1F910341B930594005DC13F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,13 +426,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1F7AC911B3EAB1800FA04C3 /* Build configuration list for PBXNativeTarget "Splash Calc" */;
 			buildPhases = (
+				B1E26990F3CB31A17C821221 /* Check Pods Manifest.lock */,
 				F1F7AC6E1B3EAB1800FA04C3 /* Sources */,
 				F1F7AC6F1B3EAB1800FA04C3 /* Frameworks */,
 				F1F7AC701B3EAB1800FA04C3 /* Resources */,
+				B01E041DCACB4D01621BF207 /* Copy Pods Resources */,
+				F1F90F141B91D28B005DC13F /* Embed Frameworks */,
+				F1F9103F1B930594005DC13F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F1F9103A1B930594005DC13F /* PBXTargetDependency */,
 			);
 			name = "Splash Calc";
 			productName = "Splash Calc";
@@ -150,21 +462,46 @@
 			productReference = F1F7AC871B3EAB1800FA04C3 /* Splash CalcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F1F9102E1B930594005DC13F /* Splash Calc Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F9103E1B930594005DC13F /* Build configuration list for PBXNativeTarget "Splash Calc Widget" */;
+			buildPhases = (
+				F1F9102B1B930594005DC13F /* Sources */,
+				F1F9102C1B930594005DC13F /* Frameworks */,
+				F1F9102D1B930594005DC13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Splash Calc Widget";
+			productName = "Splash Calc Widget";
+			productReference = F1F9102F1B930594005DC13F /* Splash Calc Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F1F7AC6A1B3EAB1700FA04C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Haluk Isik";
 				TargetAttributes = {
 					F1F7AC711B3EAB1800FA04C3 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = FESAZ792S8;
+						LastSwiftMigration = 0820;
 					};
 					F1F7AC861B3EAB1800FA04C3 = {
 						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = F1F7AC711B3EAB1800FA04C3;
+					};
+					F1F9102E1B930594005DC13F = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = FESAZ792S8;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -183,6 +520,7 @@
 			targets = (
 				F1F7AC711B3EAB1800FA04C3 /* Splash Calc */,
 				F1F7AC861B3EAB1800FA04C3 /* Splash CalcTests */,
+				F1F9102E1B930594005DC13F /* Splash Calc Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -192,9 +530,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19B17601B4A52060035AEB3 /* RestoreButton.xib in Resources */,
+				F18A8D301B40ADAD00D1FBD9 /* steelfish rg.ttf in Resources */,
+				F18A8D2E1B40A9A300D1FBD9 /* Unibody8Pro-Regular.otf in Resources */,
+				F1F7ACAA1B3EAFAE00FA04C3 /* LaunchScreen.xib in Resources */,
 				F1F7AC7D1B3EAB1800FA04C3 /* Main.storyboard in Resources */,
-				F1F7AC821B3EAB1800FA04C3 /* LaunchScreen.xib in Resources */,
-				F1F7AC7F1B3EAB1800FA04C3 /* Images.xcassets in Resources */,
+				F1F7ACA61B3EAC2E00FA04C3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,15 +546,91 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1F9102D1B930594005DC13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F910571B930661005DC13F /* Unibody8Pro-Regular.otf in Resources */,
+				F1F9105A1B93073A005DC13F /* Images.xcassets in Resources */,
+				F1F910381B930594005DC13F /* MainInterface.storyboard in Resources */,
+				F1F910581B930664005DC13F /* steelfish rg.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B01E041DCACB4D01621BF207 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Splash Calc/Pods-Splash Calc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E26990F3CB31A17C821221 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1F7AC6E1B3EAB1800FA04C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F7AC7A1B3EAB1800FA04C3 /* ViewController.swift in Sources */,
+				F135F03E1B41BEA7006BC889 /* NSString+DDMathParsing.m in Sources */,
+				F135F03C1B41BEA7006BC889 /* DDParserTypes.m in Sources */,
+				F19B175A1B49DDF40035AEB3 /* SettingsViewController.swift in Sources */,
+				F1F7AC9C1B3EAB9900FA04C3 /* CalculatorBrain.swift in Sources */,
+				F1F7AC9D1B3EAB9900FA04C3 /* CalculatorGraphViewController.swift in Sources */,
+				F1F7AC9E1B3EAB9900FA04C3 /* CalculatorGraph.swift in Sources */,
+				F135F0321B41BEA7006BC889 /* _DDRewriteRule.m in Sources */,
+				F135F03B1B41BEA7006BC889 /* DDParser.m in Sources */,
+				F135F0341B41BEA7006BC889 /* _DDVariableTerm.m in Sources */,
 				F1F7AC781B3EAB1800FA04C3 /* AppDelegate.swift in Sources */,
+				F19B17561B49ACDF0035AEB3 /* TextViewController.swift in Sources */,
+				F135F0351B41BEA7006BC889 /* DDExpression.m in Sources */,
+				F135F02A1B41BEA7006BC889 /* _DDFunctionExpression.m in Sources */,
+				F135F0381B41BEA7006BC889 /* DDMathOperator.m in Sources */,
+				F135F0301B41BEA7006BC889 /* _DDParserTerm.m in Sources */,
+				F135F0291B41BEA7006BC889 /* _DDFunctionEvaluator.m in Sources */,
+				F1945AFD1B5D946D00E5B3DD /* CalculatorViewController.swift in Sources */,
+				F135F02B1B41BEA7006BC889 /* _DDFunctionTerm.m in Sources */,
+				F135F02D1B41BEA7006BC889 /* _DDNumberExpression.m in Sources */,
+				F1F7ACA11B3EABA600FA04C3 /* AxesDrawer.swift in Sources */,
+				F135F0371B41BEA7006BC889 /* DDMathEvaluator.m in Sources */,
+				F135F0331B41BEA7006BC889 /* _DDVariableExpression.m in Sources */,
+				F135F0311B41BEA7006BC889 /* _DDPrecisionFunctionEvaluator.m in Sources */,
+				F135F02F1B41BEA7006BC889 /* _DDOperatorTerm.m in Sources */,
+				F135F02C1B41BEA7006BC889 /* _DDGroupTerm.m in Sources */,
+				F135F03A1B41BEA7006BC889 /* DDMathStringTokenizer.m in Sources */,
+				F1F7ACA21B3EABA600FA04C3 /* Extensions.swift in Sources */,
+				F1B91C3F1B472ADF0067ADEA /* GraphViewController.m in Sources */,
+				F135F0391B41BEA7006BC889 /* DDMathStringToken.m in Sources */,
+				F135F0361B41BEA7006BC889 /* DDExpressionRewriter.m in Sources */,
+				F135F02E1B41BEA7006BC889 /* _DDNumberTerm.m in Sources */,
+				F135F0281B41BEA7006BC889 /* _DDDecimalFunctions.m in Sources */,
+				F19B17641B4A5FC60035AEB3 /* RestoreButton.swift in Sources */,
+				F135F03D1B41BEA7006BC889 /* DDTypes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +642,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1F9102B1B930594005DC13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F910451B930656005DC13F /* _DDNumberExpression.m in Sources */,
+				F1F9104D1B930656005DC13F /* DDExpression.m in Sources */,
+				F1F910521B930656005DC13F /* DDMathStringTokenizer.m in Sources */,
+				F1F910471B930656005DC13F /* _DDOperatorTerm.m in Sources */,
+				F1F910531B930656005DC13F /* DDParser.m in Sources */,
+				F1F910461B930656005DC13F /* _DDNumberTerm.m in Sources */,
+				F1F9104A1B930656005DC13F /* _DDRewriteRule.m in Sources */,
+				F1F622FA1B9398A8003995FF /* BorderedButton.swift in Sources */,
+				F1F910551B930656005DC13F /* DDTypes.m in Sources */,
+				F1F910431B930656005DC13F /* _DDFunctionTerm.m in Sources */,
+				F1F910491B930656005DC13F /* _DDPrecisionFunctionEvaluator.m in Sources */,
+				F1F9104C1B930656005DC13F /* _DDVariableTerm.m in Sources */,
+				F1F910561B930656005DC13F /* NSString+DDMathParsing.m in Sources */,
+				F1F910401B930637005DC13F /* _DDDecimalFunctions.m in Sources */,
+				F1F910441B930656005DC13F /* _DDGroupTerm.m in Sources */,
+				F1F910411B930656005DC13F /* _DDFunctionEvaluator.m in Sources */,
+				F1F9104B1B930656005DC13F /* _DDVariableExpression.m in Sources */,
+				F1F9108B1B931670005DC13F /* CalculatorViewController_Widget.swift in Sources */,
+				F1F9104E1B930656005DC13F /* DDExpressionRewriter.m in Sources */,
+				F1F910541B930656005DC13F /* DDParserTypes.m in Sources */,
+				F1F910481B930656005DC13F /* _DDParserTerm.m in Sources */,
+				F1F910591B930671005DC13F /* Extensions.swift in Sources */,
+				F1F910511B930656005DC13F /* DDMathStringToken.m in Sources */,
+				F1F910501B930656005DC13F /* DDMathOperator.m in Sources */,
+				F1F910851B931593005DC13F /* CalculatorBrain.swift in Sources */,
+				F1F910421B930656005DC13F /* _DDFunctionExpression.m in Sources */,
+				F1F9104F1B930656005DC13F /* DDMathEvaluator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +683,11 @@
 			isa = PBXTargetDependency;
 			target = F1F7AC711B3EAB1800FA04C3 /* Splash Calc */;
 			targetProxy = F1F7AC881B3EAB1800FA04C3 /* PBXContainerItemProxy */;
+		};
+		F1F9103A1B930594005DC13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F9102E1B930594005DC13F /* Splash Calc Widget */;
+			targetProxy = F1F910391B930594005DC13F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -242,14 +698,6 @@
 				F1F7AC7C1B3EAB1800FA04C3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F1F7AC801B3EAB1800FA04C3 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1F7AC811B3EAB1800FA04C3 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,9 +739,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +778,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,21 +788,61 @@
 		};
 		F1F7AC921B3EAB1800FA04C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3174988F98E9D85922D2BC /* Pods-Splash Calc.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "Splash Calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/$(PROJECT_NAME)/DDMathParser";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Splash_Calc-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/$(PROJECT_NAME)/DDMathParser $(PROJECT_DIR)/$(PROJECT_NAME)/Pods/CorePlot/framework";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
 		};
 		F1F7AC931B3EAB1800FA04C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369EE410B71BA599D92A446B /* Pods-Splash Calc.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "Splash Calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/$(PROJECT_NAME)/DDMathParser";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Splash_Calc-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/$(PROJECT_NAME)/DDMathParser $(PROJECT_DIR)/$(PROJECT_NAME)/Pods/CorePlot/framework";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Release;
 		};
@@ -373,6 +861,7 @@
 				INFOPLIST_FILE = "Splash CalcTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splash Calc.app/Splash Calc";
 			};
 			name = Debug;
@@ -388,7 +877,49 @@
 				INFOPLIST_FILE = "Splash CalcTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splash Calc.app/Splash Calc";
+			};
+			name = Release;
+		};
+		F1F9103C1B930594005DC13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Splash Calc Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Splash_Calc_Widget-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/$(PROJECT_NAME)/DDMathParser";
+			};
+			name = Debug;
+		};
+		F1F9103D1B930594005DC13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Splash Calc Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Splash_Calc_Widget-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/$(PROJECT_NAME)/DDMathParser";
 			};
 			name = Release;
 		};
@@ -411,6 +942,7 @@
 				F1F7AC931B3EAB1800FA04C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1F7AC941B3EAB1800FA04C3 /* Build configuration list for PBXNativeTarget "Splash CalcTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +951,16 @@
 				F1F7AC961B3EAB1800FA04C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F9103E1B930594005DC13F /* Build configuration list for PBXNativeTarget "Splash Calc Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F9103C1B930594005DC13F /* Debug */,
+				F1F9103D1B930594005DC13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
